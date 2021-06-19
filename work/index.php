@@ -1,5 +1,14 @@
 <?php
-$message = "こんにちは" . data("l");
+$n = mt_rand(1,3);
+
+if ($n === 1){
+  $message = "UI/UXデザイナー見習いです"; 
+}elseif ($n === 2){
+  $message = "プログラミング勉強中です";
+}else {
+  $messsge = "phpちょっとわかります";
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="ja">
